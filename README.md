@@ -56,5 +56,5 @@ def route2_name(request, string_variable):
   return render(request, 'template2.htmtl', {'data': string_variable})
   
 def route3_name(request, variable_name):
-return render(request, 'template3.html', {'data': variable_name})
+  return render(request, 'template3.html', {'data': variable_name})
   
